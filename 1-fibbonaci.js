@@ -1,5 +1,6 @@
 const input = 7;
-
+// time: O(n)
+//space: O(n)
 function findFibo(n) {
   const start = [0, 1];
   for (let i = 2; i < n; i++) {
