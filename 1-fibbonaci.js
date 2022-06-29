@@ -1,4 +1,4 @@
-const input = 5;
+const input = 7;
 
 function findFibo(n) {
   const start = [0, 1];
