@@ -1,3 +1,5 @@
+//Given a intiger N check it is prime number or not
+
 // time: O(n)
 //space: O(n)
 function isPrime(n) {

@@ -1,3 +1,5 @@
+//Given a intiger N return its factorial value
+
 const input = 1;
 // time: O(n)
 //space: O(1)

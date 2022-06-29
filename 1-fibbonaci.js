@@ -1,3 +1,5 @@
+//Given a intiger N return its fibonacci value
+
 const input = 7;
 // time: O(n)
 //space: O(n)
