@@ -1,6 +1,5 @@
-//Given a intiger N return its fibonacci value
+//Given a intiger N find the first n elements of fibonacci
 
-const input = 7;
 // time: O(n)
 //space: O(n)
 function findFibo(n) {
@@ -8,7 +7,7 @@ function findFibo(n) {
   for (let i = 2; i < n; i++) {
     start.push(start[i - 1] + start[i - 2]);
   }
-  return start[start.length - 1];
+  return start;
 }
 
-console.log(findFibo(input));
+console.log(findFibo(12));
